@@ -1,8 +1,8 @@
 from rich.traceback import install
 import asyncio
 from rich.console import Console
-from src.banner import pussy
-from src.scraper import sniff
+from src.banner import banr
+from src.scraper import gis
 
 install(show_locals=True)
 console = Console()
@@ -11,8 +11,8 @@ console = Console()
 
 
 def main():
-    pussy()
-    asyncio.run(sniff())
+    banr()
+    asyncio.run(gis())
     console.rule(f"[green]DONE[/green]", style="green")
 
 

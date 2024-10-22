@@ -17,7 +17,7 @@ from playwright.async_api import async_playwright, Page
 
 
 # Main function orchestrating the scraping
-async def sniff():
+async def gis():
     rprint(
         Panel(
             """Scraping 1st page of Issues and Prs, may not work with older repos""",

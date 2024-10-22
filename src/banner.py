@@ -6,7 +6,7 @@ from rich.traceback import install
 
 install(show_locals=True)
 
-console = Console()  # Sta
+console = Console()  
 
 # Define urls
 url = [
@@ -14,7 +14,7 @@ url = [
 ]
 
 
-def pussy() -> None:
+def banr() -> None:
     logging.basicConfig(
         level="DEBUG",
         format="%(message)s",
