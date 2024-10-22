@@ -1,0 +1,14 @@
+[project]
+name = "xo-gis"
+version = "0.0.1"
+description = "Simple Github Issues and PR Scraper"
+readme = "README.MD"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=3.4.3",
+    "pytest-playwright>=0.5.2",
+    "requests>=2.32.3",
+    "rich>=13.9.3",
+    "typer>=0.12.5",
+]
+
