@@ -1,20 +1,25 @@
+########################
+# Main scraper function
+########################
 import os
 import asyncio
 import json
 from datetime import datetime
 import logging
 from typing import List
-from src.utils import *
 
 from rich import print as rprint
-from rich.panel import Panel
-from rich.logging import RichHandler
 from rich.console import Console
+from rich.logging import RichHandler
+from rich.panel import Panel
 from rich.progress import track
 from rich.tree import Tree
 
 from playwright.async_api import async_playwright, Page
 
+from src.utils import *
+
+# --- Code section below ---
 
 # Main function orchestrating the scraping
 async def gis():

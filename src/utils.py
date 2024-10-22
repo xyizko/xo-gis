@@ -1,14 +1,18 @@
+#####################################
+# Utilty functions used by scraper.py
+#####################################
+
 import os
 import asyncio
 import json
-from datetime import datetime
 import logging
+from datetime import datetime
 from typing import List
 
+from rich.console import Console
+from rich.logging import RichHandler
 from rich import print as rprint
 from rich.panel import Panel
-from rich.logging import RichHandler
-from rich.console import Console
 from rich.progress import track
 from rich.tree import Tree
 
@@ -23,6 +27,8 @@ logging.basicConfig(
 )
 log = logging.getLogger("rich")
 console = Console()
+
+# --- Code section below ---
 
 
 # Create a 'reports' folder if it doesn't exist

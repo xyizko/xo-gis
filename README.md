@@ -12,6 +12,9 @@
 <h1 align="center"><code>xo-gis</code></h1>
 <h2 align="center"><i> Simple Github Issues and PR Scraper </i></h2>
 
+[![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
+
+
 1. [Demo](#demo)
 2. [What](#what)
 3. [Setup](#setup)
