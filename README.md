@@ -64,6 +64,11 @@ uv run xo.py
 
 - A new `reports` directory will be created with each repo as its own directory containing its scraped assets
 
+## Common Problems
+
+Some repositories may not be scraped properly if it uses _pinned issues_. 
+
+
 # License
 
 **TODO**
