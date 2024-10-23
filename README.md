@@ -15,20 +15,32 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
 
-1. [Demo](#demo)
-2. [What](#what)
-3. [Setup](#setup)
-4. [License](#license)
+1. [🎥 Demo](#-demo)
+   1. [🍬 Features](#-features)
+2. [🤔What](#what)
+3. [💽 Setup](#-setup)
+   1. [😿 Common Problems](#-common-problems)
+4. [🎩 License](#-license)
 
-# Demo
+# 🎥 Demo
 
 ![](./misc/d.gif)
 
-# What
+## 🍬 Features
+
+✅ Captures both screenshots and scrape to `.txt` and `.json`
+
+✅ Set any type of User-Agent via `config/useragent.txt`
+
+✅ Fast since it uses `https://docs.astral.sh/uv/`
+
+
+
+# 🤔What
 
 Research tool to quickly scrape the 1st page of the **github** _issues_ and _prs_ from a given `github repo`. Its _screenshots_ are taken and the headings of the _issues and prs_ are stored as `.txt` and `.json`
 
-# Setup
+# 💽 Setup
 
 1. Download and install [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
@@ -64,11 +76,11 @@ uv run xo.py
 
 - A new `reports` directory will be created with each repo as its own directory containing its scraped assets
 
-## Common Problems
+## 😿 Common Problems
 
 Some repositories may not be scraped properly if it uses _pinned issues_. 
 
 
-# License
+# 🎩 License
 
 **TODO**
