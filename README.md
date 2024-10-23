@@ -14,7 +14,6 @@
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
-
 1. [💻 Compatibility](#-compatibility)
 2. [🎥 Demo](#-demo)
    1. [🍬 Features](#-features)
@@ -25,9 +24,9 @@
 
 # 💻 Compatibility
 
-Env | Status
---- | ---
-[![My Skills](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) | ✅
+| Env                                                                          | Status |
+| ---------------------------------------------------------------------------- | ------ |
+| [![My Skills](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) | ✅     |
 
 # 🎥 Demo
 
@@ -40,8 +39,6 @@ Env | Status
 ✅ Set any type of User-Agent via `config/useragent.txt`
 
 ✅ Fast since it uses `https://docs.astral.sh/uv/`
-
-
 
 # 🤔What
 
@@ -75,7 +72,12 @@ org2/repo2
 
 - Make a new file `config/useragent.txt` with the required _user-agent_ or defaults will be used.
 
-6. Execute
+```js
+# Defaul user=agent
+default_user_agent = "Mozilla/5.0 (Linux; Android 10; SM-G975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.93 Mobile Safari/537.36"
+```
+
+1. Execute
 
 ```py
 uv run xo.py
@@ -85,8 +87,7 @@ uv run xo.py
 
 ## 😿 Common Problems
 
-Some repositories may not be scraped properly if it uses _pinned issues_. 
-
+Some repositories may not be scraped properly if it uses _pinned issues_.
 
 # 🎩 License
 
