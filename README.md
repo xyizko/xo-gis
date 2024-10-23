@@ -15,12 +15,19 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
 
-1. [🎥 Demo](#-demo)
+1. [💻 Compatibility](#-compatibility)
+2. [🎥 Demo](#-demo)
    1. [🍬 Features](#-features)
-2. [🤔What](#what)
-3. [💽 Setup](#-setup)
+3. [🤔What](#what)
+4. [💽 Setup](#-setup)
    1. [😿 Common Problems](#-common-problems)
-4. [🎩 License](#-license)
+5. [🎩 License](#-license)
+
+# 💻 Compatibility
+
+Env | Status
+--- | ---
+[![My Skills](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) | ✅
 
 # 🎥 Demo
 
@@ -83,4 +90,4 @@ Some repositories may not be scraped properly if it uses _pinned issues_.
 
 # 🎩 License
 
-**TODO**
+[`Lic`](https://github.com/xyizko/xo-liz/blob/main/liz/L2.MD)
