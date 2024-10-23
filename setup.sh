@@ -16,14 +16,14 @@ b1() {
 b2() {
     echo -e "-----------------------------------------------"
     echo -e "  Shell script to setup the following "
-    echo -e "${GREEN}  uv add asyncio rich requests pytest-playwright  ${NC}"
+    echo -e "${GREEN}  uv add asyncio rich requests pytest pytest-asyncio pytest-playwright  ${NC}"
     echo -e "${GREEN}  uvx playwright install --with-deps ${NC}"
     echo -e "-----------------------------------------------"
 }
 
 s1() {
     echo -e "${YELLOW} Executing ${NC}"
-    uv add asyncio rich requests pytest-playwright
+    uv add asyncio rich requests pytest pytest-asyncio pytest-playwright
     uvx playwright install --with-deps
     uv tree
     echo -e "${YELLOW} Done ${NC}"

@@ -6,9 +6,17 @@ readme = "README.MD"
 requires-python = ">=3.12"
 dependencies = [
     "asyncio>=3.4.3",
+    "pytest>=8.3.3",
+    "pytest-asyncio>=0.24.0",
     "pytest-playwright>=0.5.2",
     "requests>=2.32.3",
     "rich>=13.9.3",
     "typer>=0.12.5",
 ]
 
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+markers = [
+    "asyncio: mark test as async",
+]
+asyncio_default_fixture_loop_scope = "session"
